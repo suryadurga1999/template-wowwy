@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&family=Petemoss&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed&display=swap');
+body{ 
+    font-family: 'Poppins', sans-serif;
+  overflow-y: auto;
+  
+}
+
+.header{
+position: fixed;
+left: 0px;
+top: 0px;
+width: 100%;
+z-index: 9;
+    padding:  20px 0px;
+}
+.header .nav .nav-item .nav-link{
+    color: white;
+    font-weight: 400;
+}
+.banner{ 
+background:url("../images/hero-bg.png");
+min-height:200px ;
+background-position:bottom center;
+position: relative;
+}
+
+.banner .container-fluid{
+    position: relative;
+    z-index: 5;
+}
+.banner .images{ 
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
+  z-index: 1;
+
+  height: 100%;
+  width: 100%;
+} 
+
+.banner .images img{
+    position: absolute;
+    animation:  anim1 15s reverse linear infinite;
+    transform: rotate(0deg) translate(0px,0px);
+}
+.banner .images img:nth-child(1){ 
+    top:12%;
+    right:10%;
+
+}
+
+.banner .images img:nth-child(2){ 
+    top:45%;
+    left:40%;
+}
+.banner .images img:nth-child(3){ 
+    top:35%;
+    left:60%;
+}
+.banner .images img:nth-child(4){ 
+    left:30%;
+    top:10%;
+}
+.banner .images img:nth-child(5){ 
+    top:30%;
+    right:25%;
+}
+.banner .images img:nth-child(6){ 
+    right:12%;
+    bottom:20%;
+}
+
+.banner .images img:nth-child(7){ 
+    bottom:10%;
+    left:10%;
+}
+
+@keyframes anim1 {
+
+    0%{
+        transform: rotate(0deg) translate(0px,0px);
+    }
+
+    25%{
+        transform: rotate(45deg) translate(40px,0px);
+    }
+
+    100%{
+        transform: rotate(0deg) translate(0px,0px);
+    }
+    
+}
+.banner h1{ 
+text-align: center;
+color: white;
+font-weight: 700;
+
+}
+.banner h6{ 
+    text-align: center;
+    color: white;
+}
+
+.banner-text{
+ padding: 180px 0px 100px 0px;
+}
+
+.banner-image img{
+    margin-bottom: -50px;
+}
+.banner .cards{ 
+    position: absolute;
+    left:0px;
+    top:0px;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+.banner .cards img{ 
+    position: absolute;
+    animation:  anim2 15s reverse linear infinite;
+}
+
+.banner .cards img:nth-child(1){
+    left: 0px;
+    top: 40%;
+
+    
+}
+
+.banner .cards img:nth-child(2){
+    right: -50px;
+    top: 30%;
+  
+    
+}
+
+@keyframes anim2 {
+
+    0%{
+        transform: rotate(0deg) translate(0px,0px);
+    }
+
+    25%{
+        transform: rotate(0deg) translate(100px,100px);
+    }
+
+    100%{
+        transform: rotate(0deg) translate(0px,0px);
+    }
+    
+}
+.unique h1{ 
+    text-align: center;
+    margin-top: 100px;
+    color: blue;
+}
+.unique p{ 
+    text-align: center;
+}
+.unique .nav .nav-item img{ 
+    height: 400px;
+    padding: 0px 10px;
+    margin-top: 40px;
+margin-left: 20px;
+}
+.uniue .nav .nav-item .text{ 
+    text-align: center;
+}
+.images{ 
+    margin-top: 35px;
+    
+}
+.images p{ 
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.images img{ 
+    padding:10px 10px;
+}
+.categeory img{ 
+    padding:10px 10px;
+ 
+}
+.categeory { 
+    margin-top: 80px;
+    background-color: #FFF4F2;
+  
+}
+.categeory p{ 
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+}
+.ecommerce h3{ 
+    margin-top: 50px;
+    color: blue;
+}
+.ecommerce p{ 
+    color: gray;
+    font-size: 12px;
+}
+.ecommerce{ 
+    background-color:#FFF4F2;
+}
+.product{ 
+    margin-top: 80px;
+    background-color: #FFF4F2;
+}
+.product img{ 
+    padding:10px 10px;
+    border-radius: 10px;
+} 
+.product p{ 
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+}
+.shop{ 
+    margin-top: 30px;
+}
+.shop img{ 
+    padding: 10px 10px;
+}
+.shop p{ 
+    font-size: 14px;
+    color:gray;
+    text-align: center;
+}
+.preset{ 
+    
+    background-color: #D5DFF6;
+}
+.preset h2{ 
+    margin-top: 80px;
+}
+.preset p{ 
+    color: gray;
+    font-size: 14px;
+}
+.green p{ 
+    font-size: 14px;
+    color: gray;
+}
+.green h2{ 
+    margin-top: 80px;
+}
+.green{ 
+    background-color: #EBFAF2;
+}
+.pages { 
+    margin-top: 50px;
+}
+.pages img{ 
+    padding: 10px 10px;
+}
+.pages p{ 
+    text-align: center;
+    color:gray;
+    font-size: 14px;
+}
+.page{ 
+    margin-top: 30px;
+}
+.page img{ 
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.page p{ 
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+}
+.blog{ 
+    margin-top: 40px;
+   
+}
+.blog img{ 
+    padding:10px 10px;
+   
+}
+.blog p{ 
+    color:gray;
+    font-size: 14px;
+    text-align: center;
+}
+.grid{ 
+    margin-top: 30px;
+}
+.grid img{ 
+    padding: 10px 10px;
+}
+.grid p{ 
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+}
+.backend{ 
+    margin-top: 40px;
+}
+.backend p{ 
+    color:gray;
+    font-size: 14px;
+}
+.admin{ 
+    margin-top: 50px;
+}
+.admin img{ 
+    padding:10px 10px;
+    
+   
+} 
+img:hover{ 
+    cursor:pointer; 
+  
+}
+.footer h1{ 
+text-align: center;
+color: blue;
+margin-top: 200px;
+}
+.footer p{ 
+    text-align: center;
+    color: gray;
+
+}
